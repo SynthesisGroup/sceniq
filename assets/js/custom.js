@@ -1,3 +1,12 @@
+// Slide Menu
+smoothScroll.init();
+$(document).ready(function() {
+	$('.menu-link').menuFullpage({
+		side:"right",
+		menuWidth:"100%",
+	});
+});
+
 !(function (e) {
     "use strict";
     function t() {
